@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color: rgb(30, 0, 59);
+    height: 28px;
+    display: flex;
+}
+nav ul li{
+    font-size: 20px;
+    color: rgb(229, 222, 222);
+}
+nav ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+}
+.container{
+    background-color: black;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 56px);
+}
+h1{
+    color: white;
+    padding-bottom: 30px;
+}
+.drumscontainer{
+    background-image: linear-gradient(red, yellow, green);
+    display: flex;
+    width: 90%;
+    height: 60vh;
+    justify-content: space-around;
+    align-items: center;
+}
+.drums{
+    display: flex;
+    flex-direction: row;
+    width: 25vw;
+    height: 25vh;
+    border-radius: 50%;
+    background-image: linear-gradient(pink, black, purple);
+    border: 5px solid rgb(192, 192, 192);
+    margin: 10px;
+    overflow-x:hidden;
+    justify-content: center;
+    align-items: center;
+}
+.drums:hover{
+    cursor:pointer;
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+.drumtext{
+    color: white;   
+    font-size: 30px;
+}
+footer{
+    height: 28px;
+    background-color: black;
+    
+}
+
+footer ul li{
+    list-style: none;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    color: rgb(229, 222, 222);
+    font-size: 20px;
+}
